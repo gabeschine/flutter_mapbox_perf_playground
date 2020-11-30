@@ -4,10 +4,17 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "mapbox_perf_playground",
             "request": "launch",
             "type": "dart"
+        },
+        {
+            "name": "mapbox_perf_playground_profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
         }
     ]
 }
